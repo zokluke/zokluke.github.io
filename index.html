@@ -11,8 +11,10 @@
 </script>
 <script>
   const urlParams = new URLSearchParams(window.location.search);
-  const myParam = urlParams.get('page');
-  window.location.href = myParam
+  const linktoredirecttolol = urlParams.get('page');
+  const seconds = urlParams.get('wait')
+  const secs = seconds * 1000
+  setTimeout(() => { window.location.href = linktoredirecttolol }, secs);
 </script>
 
   
